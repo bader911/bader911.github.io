@@ -1,0 +1,98 @@
+
+*       {
+  color: black;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+}
+
+body    {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: 'Comfortaa', cursive;}
+
+section {
+  float: left;
+  width: 50%;
+  text-indent: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+
+h2 { 
+  word-spacing: 10px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 30px
+}
+
+aside{
+
+  float: left;
+  width: 30%;
+  font-family: 'Comfortaa', cursive;;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  font-family: 'Comfortaa', cursive;
+}
+
+footer {
+  clear: both;
+  font-family: 'Comfortaa', cursive;
+}
+
+header { 
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+
+  word-spacing: 10px;
+  font-family: 'Heebo', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}
+a  { 
+  color: #D09E94;
+
+}
+nav li {
+
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
+  border: 1px solid firebrick;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Comfortaa', cursive;
+
+}
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  font-family: 'Comfortaa', cursive;
+}
+
+p { 
+ font size: 0.3px;
+ text-align: justify;
+ text-justify: inter-word;
+ font-family: 'Comfortaa', cursive;
+} 
+
+ img { 
+
+  width: 12px;
+  height: 12px;
+}
