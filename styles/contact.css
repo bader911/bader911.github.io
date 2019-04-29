@@ -1,0 +1,118 @@
+body {
+	background-image: url('images/backgroundseamless1.jpg');
+	font-size: 90%; /* base font-size = 14px */
+	font-family: Arial, 'Lucida Sans Uncode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {text-decoration: none;}
+a:link, a:visited {color: #e74c3c;}
+a:hover, a:active {color: #f58233;}
+
+
+.body {
+	margin: 10px auto;
+	width: 70%;
+	clear: both;
+}
+
+/*---------MAIN HEADER ---------*/
+
+.mainheader img {
+	width: 100%;
+}
+
+.mainheader nav {
+	background-color: #e74c3c;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.mainheader nav ul {
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainheader nav ul li {
+	display: inline;
+
+}
+
+.mainheader a:link, .mainheader a:visited {
+	color: white;
+	padding: 10px 40px;
+	display: inline-block;
+	height: 20px;
+}
+
+.mainheader a:hover, .mainheader a:active {
+	color: white;
+	background-color: #f58233;
+	text-shadow: none;
+}
+
+/*---------MAIN CONTENT ---------*/
+.contact form {
+	background: rgba(241, 172, 135, 0.1);
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+.contact form input [type="text"] {
+	width: 70px;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+
+.contact form textarea {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	line-height: 1.5;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #999;
+}
+.contact form button {
+	width: 50px;
+	padding: 10px 0;
+	border: 0;
+	background: #222;
+	color: #fff;
+	border-radius: 5px;
+
+}
+
+
+.contact form label,
+textarea {
+	font-size: .8rem;
+	letter-spacing: 1px;
+	
+}
+
+
+
+/*---------FOOTER ---------*/
+
+.footer {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	background-color: #e74c3c;
+	height: 50px;
+	border-radius: 5px;
+	margin: 10px auto;
+}
+
+.footer p {
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
