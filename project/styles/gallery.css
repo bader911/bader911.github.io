@@ -56,42 +56,27 @@ a:hover, a:active {color: #f58233;}
 
 /*---------MAIN CONTENT ---------*/
 
-.post-info1 {
-
-  color: grey;
-  margin-top: 15px;
+h1 {
+  text-align: center;
+  color: orange;
+  margin: 30px 0 50px;
 }
 
-.post-info {
+.gallery {
+  margin: 10px 50px;
 
-  color: grey;
-  font-style: italic;
-  margin-top: 10px;
 }
 
-
-.full-img {
-  position:relative;
-  display: block;
-  width: 640px;
-  height: 480px;
+.gallery img {
+  padding: 5px;
+  width: 230px;
+  filter: grayscale(100%);
+  transition: 1s;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 640px;
-  height: 480px;
-  background-color: rgba(0,0,0,0);
-}
-
-.thumb-bar img {
-  margin-top: 1px;
-  display: block;
-  width: 15%;
-  float: left;
-  cursor: pointer;
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 /*----------------footer-------------*/
@@ -110,3 +95,55 @@ a:hover, a:active {color: #f58233;}
   color: white;
   font-size: 14px;
 }
+
+
+@media only screen and ( min-width: 160px) and (max-width: 600px)
+
+{
+
+  body {
+
+    margin-right: 0;
+
+  }
+
+  .body {
+
+    margin-right: 0;
+  }
+
+  .footer,p {
+    width: 100%;
+    float: right;
+    margin: 1.5%;
+    margin-right: 5%;
+    text-align: center;
+
+  }
+
+  .mainheader a:link, .mainheader a:visited {
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding-bottom: 2%;
+    margin-right: 
+
+  }
+
+  .mainheader a:hover, .mainheader a:active {
+    width: 100%;
+    text-align: center;
+  }
+
+  .maincontent {
+
+    width: 100%;
+    float: right;
+    margin-top: 55%;
+    margin-right :5%;
+  }
+
+  h1 {
+  margin-top: 60%;
+
+  }
