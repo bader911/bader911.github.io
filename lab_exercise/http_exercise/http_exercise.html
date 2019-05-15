@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTTP & Security</title>
+</head>
+<body>
+
+	<header><h2>HTTP & Security</h2></header>
+
+	<details>
+		<summary>
+
+			<mark>1-</mark> <strong> What is the Hypertext Transfer Protocol (HTTP) ?</strong>
+		</summary>
+		<p> is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests. Though often based on a TCP/IP layer, it can be used on any reliable transport layer; that is, a protocol that doesn't lose messages silently, such as UDP.
+		</p>
+
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>2-</mark> <strong> Why is HTTP called a stateless protocol?		</strong>
+		</summary>
+		<p>HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests.
+		</p>
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>3-</mark> <strong> Describe the three phases of establishing a session using client-server protocols such as HTTP ?		</strong>
+		</summary>
+		
+			
+			<ul>
+				<ol>The client establishes a TCP connection (or the appropriate connection if the transport layer is not TCP).</ol> 
+				<ol>The client sends its request, and waits for the answer.</ol>
+				<ol>The server processes the request, sending back its answer, providing a status code and appropriate data.</ol>
+			</ul>
+			
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>4-</mark> <strong> Describe the parameters on a get and post request?	</strong>	
+		</summary>
+		<p> The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+			<br>
+			The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+		</p>
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>5-</mark> <strong> What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?		</strong>
+		</summary>
+		<p>HTTP response codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes: informational responses, successful responses, redirections, client errors, and servers errors.
+		</p>
+		<p>
+			200 .. The request has succeeded.
+		</p>
+		<p>
+			404 .. The server can not find requested resource 
+		</p>
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>6-</mark> <strong> What are HTTP cookies? Give an example?		</strong>
+		</summary>
+		<p>An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with the next request to the same server.
+		</p>
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>7-</mark> <strong> Why are cookies a security issue?		</strong>
+		</summary>
+		<p>because it is included on sensitive information should never be stored in cookies, as they are inherently insecure and this flag can't offer real protection.
+		</p>
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>8-</mark> <strong> Describe session hijacking and XSS?		</strong>
+		</summary>
+		<p>stealing a cookie can lead to hijacking the authenticated user's session. Common ways to steal cookies include Social Engineering or exploiting an XSS vulnerability in the application.
+		</p>
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>9-</mark> <strong> Describe Cross-site request forgery(CSRF)?		</strong>
+		</summary>
+		<p> Is an attack that impersonates a trusted user and sends a website unwanted commands.
+		</p>
+	</details>
+	<br>
+
+	<details>
+		<summary>
+
+			<mark>10-</mark> <strong> What are Cross-site HTTP requests (CORS) and what requests use CORS?	</strong>	
+		</summary>
+		<p> Is used to enable cross-site HTTP requests for:
+
+			Invocations of the XMLHttpRequest or Fetch APIs in a cross-site manner, as discussed above..
+		</p>
+	</details>
+	<br>
+
+
+</body>
+</html>
